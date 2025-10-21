@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>exemplo01-aula16</title>
+</head>
+<body>
+    <h1>Trabalhando com imput e outros tipos</h1>
+    <form method="get">
+        <label for="Numero">
+            Número
+            </label>
+        <input type="number"
+        name="Numero"
+        id="Numero"
+        min="5"
+        max="10"
+        value="5"
+        required autofocus
+        >
+        <br>
+        <label for="Telefone">
+            Telefone
+            </label>
+            
+        <input type="Telefone"
+        name="Telefone"
+        id="Tel"
+        maxlength="50"
+        size="50"
+        placeholder="(dd).9.99999-9999"
+        >
+        <br>
+        <label for="Data de nascimento">Data de nascimento</label>
+        <input type="date"
+        name="Data de nascimento"
+        id="Data de nascimento"
+        min="1970-01-01"
+        >
+        <br>
+
+        <label for="Data e hora">Data e hora</label>
+        <input type="datetime-local"
+        name="Data e hora"
+        id="Data e hora"
+        min="1970-01-01"
+        >
+        <br>
+        <label for="Hora">Hora</label>
+        <input type="time" 
+        name="Hora"
+        id="Hora"
+        value="08:00"
+        min="07:00"
+        max="18:00"
+        >
+        <br>
+        <label for="cor">Cor</label>
+        <input type="color"
+        name="cor"
+        id="cor"
+        >
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+</body>
+</html>
