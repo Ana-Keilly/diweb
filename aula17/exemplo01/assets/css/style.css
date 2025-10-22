@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../css/img/dogs.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #888383;
+}
+.container{
+    margin: 250px 0 20px 150px;
+}
+.title{
+    font-size: 60px;
+}
+.subtitle{
+    margin: 20px 0 50pz 0;
+    font-size: 30px;
+}
