@@ -1,0 +1,13 @@
+table{
+    width: 100%;
+}
+table td, th{
+    border: 1px solid black;
+    text-align: center;
+}
+tfood{
+    font-weight: 700;
+    background-color: tomato;
+    color: #fff;
+    font-size: 20px;
+}
